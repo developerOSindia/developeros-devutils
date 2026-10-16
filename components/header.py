@@ -34,7 +34,7 @@ def render_header(
         </div>
         <div style="display: flex; align-items: center; gap: 0.75rem; flex-wrap: wrap;">
             {compact_banner}
-            <a href="https://tools.developeros.in" target="_blank" rel="noopener noreferrer" style="color: #94a3b8; text-decoration: none; font-size: 0.85rem; padding: 0.28rem 0.65rem; border-radius: 0.375rem; border: 1px solid rgba(255, 255, 255, 0.1); transition: border-color 0.15s;">
+            <a href="https://toolkit.developeros.in" target="_blank" rel="noopener noreferrer" style="color: #94a3b8; text-decoration: none; font-size: 0.85rem; padding: 0.28rem 0.65rem; border-radius: 0.375rem; border: 1px solid rgba(255, 255, 255, 0.1); transition: border-color 0.15s;">
                 Tools Directory
             </a>
             <a href="{github_repo}" target="_blank" rel="noopener noreferrer" style="background-color: #f97316; color: #ffffff; text-decoration: none; font-size: 0.85rem; font-weight: 600; padding: 0.28rem 0.85rem; border-radius: 0.375rem; transition: background-color 0.15s;">

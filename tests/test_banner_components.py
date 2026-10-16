@@ -43,7 +43,7 @@ class TestBannerComponents(unittest.TestCase):
     def test_main_promotional_banner_custom_urls(self):
         """Verifies custom URLs and CTA text overrides."""
         custom_p = "https://developeros.in/custom-explore"
-        custom_s = "https://tools.developeros.in/custom-tools"
+        custom_s = "https://toolkit.developeros.in/custom-tools"
         html = get_main_promotional_banner_html(
             heading="Custom Heading",
             primary_cta_text="Start Now",
