@@ -1,5 +1,7 @@
 # DeveloperOS DevUtils Suite
 
+[![Live App](https://img.shields.io/badge/Live%20Demo-Streamlit-FF4B4B.svg)](https://devos-devutils.streamlit.app)
+
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![Python 3.12](https://img.shields.io/badge/python-3.12-blue.svg)](https://www.python.org/downloads/)
 [![Streamlit](https://img.shields.io/badge/Streamlit-1.38%2B-FF4B4B.svg)](https://streamlit.io)
@@ -9,6 +11,9 @@
 An independent, production-grade developer utility suite containing **20 offline, zero-storage utilities** built for the [DeveloperOS](https://developeros.in) ecosystem.
 
 ---
+
+> 🚀 **Live Application**: [https://devos-devutils.streamlit.app](https://devos-devutils.streamlit.app)
+
 
 ## 🌟 Overview & Architecture
 
@@ -162,7 +167,7 @@ When configuring this repository on GitHub, apply these topics:
 
 Distributed under the **MIT License**. See [LICENSE](LICENSE) for details.
 
+- **Live Application**: [https://devos-devutils.streamlit.app](https://devos-devutils.streamlit.app)
 - **Main Website**: [https://developeros.in](https://developeros.in)
 - **Central Tools Directory**: [https://toolkit.developeros.in](https://toolkit.developeros.in)
 - **GitHub Organization**: [https://github.com/developerOSindia](https://github.com/developerOSindia)
-
