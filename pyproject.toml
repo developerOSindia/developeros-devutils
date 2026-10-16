@@ -1,0 +1,32 @@
+[build-system]
+requires = ["setuptools>=68.0.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "developeros-devutils"
+version = "1.0.0"
+description = "DeveloperOS DevUtils Suite: 20 essential offline developer utilities"
+authors = [{ name = "DeveloperOS Team", email = "engineering@developeros.in" }]
+license = { text = "MIT" }
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "streamlit>=1.38.0,<2.0.0",
+    "pyyaml>=6.0.1",
+    "qrcode>=7.4.2",
+    "Pillow>=10.0.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.0.0",
+    "ruff>=0.3.0",
+]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+python_files = ["test_*.py"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py312"
